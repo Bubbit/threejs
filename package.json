@@ -1,0 +1,22 @@
+{
+  "name": "bub-threejs",
+  "version": "0.0.0",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "echo test"
+  },
+  "dependencies": {
+    "lit": "^2.0.0",
+    "three": "^0.133.0"
+  },
+  "devDependencies": {
+    "vite": "^2.6.0"
+  }
+}
