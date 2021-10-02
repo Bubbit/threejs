@@ -10,13 +10,17 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "echo test"
+    "build": "rimraf public && rollup -c rollup.config.js"
   },
   "dependencies": {
     "lit": "^2.0.0",
     "three": "^0.133.0"
   },
   "devDependencies": {
+    "@open-wc/building-rollup": "^1.10.0",
+    "deepmerge": "^4.2.2",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-copy-assets": "^2.0.3",
     "vite": "^2.6.0"
   }
 }
